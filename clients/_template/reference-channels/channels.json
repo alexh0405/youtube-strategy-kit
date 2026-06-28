@@ -1,0 +1,34 @@
+{
+  "_comment": "VORLAGE — Referenz-Kanaele fuer den Client-Research-Modus des youtube-outlier Skills. Trage hier die erfolgreichen KI-Kanaele ein, an denen du dich orientieren willst (deine eigenen Peers). Die Eintraege unten sind nur generische Platzhalter — ERSETZE sie. Channel-IDs sind oeffentliche YouTube-Daten; wenn du eine nicht kennst, lass channelId leer und trage nur das Handle ein, der Skill kann sie ueber das Handle aufloesen.",
+  "_how_to_find_channel_id": "Oeffne den Kanal auf YouTube > 'Kanal teilen' > 'Kanal-ID kopieren', ODER nutze: yt-dlp --print channel_id https://www.youtube.com/@HANDLE",
+  "_fields": {
+    "name": "Anzeigename des Kanals",
+    "handle": "YouTube-Handle, beginnt mit @",
+    "channelId": "YouTube Channel-ID (UC...), optional — kann leer bleiben",
+    "niche": "Kurzbeschreibung des Themas (frei)",
+    "priority": "1-10, hoehere Zahl = wird im Client-Research zuerst durchsucht (optional)"
+  },
+  "channels": [
+    {
+      "name": "Beispiel-Kanal 1 (ersetzen)",
+      "handle": "@beispiel-kanal-1",
+      "channelId": "",
+      "niche": "KI-Tools, AI Agents, Automatisierung",
+      "priority": 9
+    },
+    {
+      "name": "Beispiel-Kanal 2 (ersetzen)",
+      "handle": "@beispiel-kanal-2",
+      "channelId": "",
+      "niche": "KI-Workflows fuer Solo-Unternehmer, Automatisierung",
+      "priority": 7
+    },
+    {
+      "name": "Beispiel-Kanal 3 (ersetzen)",
+      "handle": "@beispiel-kanal-3",
+      "channelId": "",
+      "niche": "KI-Transformation fuer Unternehmen, Business-Impact",
+      "priority": 7
+    }
+  ]
+}

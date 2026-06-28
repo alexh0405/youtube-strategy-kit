@@ -1,0 +1,15 @@
+{
+  "_comment": "Client-Konfiguration fuer den Client-Research-Modus. Kopiere den Ordner clients/_template/ zu clients/<dein-slug>/ und passe die Werte an. Der Slug ist der Ordnername (z.B. 'mein-kanal').",
+  "slug": "_template",
+  "displayName": "Mein Kanal",
+  "language": "de",
+  "niche": "ki-space",
+  "searchDefaults": {
+    "days": 90,
+    "multiplier": 1.5,
+    "top": 30,
+    "maxChannels": 10,
+    "topPerChannel": 3,
+    "maxSeeds": 3
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "_comment": "Kuratierte Keyword-Bibliothek fuer den KI-Space (DACH/deutschsprachig). Abgeleitet aus den Themen erfolgreicher Peer-Kanaele (siehe clients/_template/reference-channels/channels.json). suggest_keywords.py liest diese Datei und schlaegt passende, suchbare Keywords vor. ALLES ist editierbar — erweitere die Cluster mit den Begriffen, die in DEINER Sub-Nische ziehen.",
+  "language": "de",
+  "niche": "ki-space",
+  "intent_legend": {
+    "search": "Evergreen, konkrete Suchanfrage, rankt ueber Zeit (Tutorials, Vergleiche, How-To)",
+    "browse": "Momentum, breit/emotional/aktuell, lebt von Verpackung (Meinung, Tests, News, Storys)",
+    "both": "Funktioniert in beiden Modi"
+  },
+  "clusters": [
+    {
+      "id": "claude-code-agents",
+      "label": "Claude Code & Coding Agents",
+      "intent": "search",
+      "why": "Hohe Suchabsicht, klare How-To-Nische, technisch versierte Zielgruppe. Tutorials ranken evergreen und bauen Autoritaet.",
+      "keywords": [
+        "Claude Code Tutorial deutsch",
+        "Claude Code Agent bauen",
+        "Claude Skills erstellen",
+        "Coding Agent selbst bauen",
+        "Claude Code vs Cursor",
+        "Claude Code MCP Server",
+        "AI Coding Agent Workflow"
+      ]
+    },
+    {
+      "id": "ai-agents-automation",
+      "label": "AI Agents & Automatisierung",
+      "intent": "both",
+      "why": "Breites, heisses Thema. Konkrete Tool-Anleitungen rankten (search), 'Ich baue X'-Formate ziehen ueber Browse.",
+      "keywords": [
+        "AI Agent erstellen ohne Code",
+        "n8n KI Automatisierung",
+        "Make AI Workflow",
+        "KI Agent fuer Unternehmen",
+        "Automatisierung mit KI deutsch",
+        "AI Agent Business Use Case",
+        "Workflow automatisieren KI"
+      ]
+    },
+    {
+      "id": "ki-ohne-team",
+      "label": "KI ohne Team / Solo-Unternehmer",
+      "intent": "browse",
+      "why": "Starker Identitaets- und Nutzen-Winkel (alleine mehr schaffen). Emotional aufgeladen, gut fuer Browse + Lead-Gen.",
+      "keywords": [
+        "KI ohne Team",
+        "Solo Unternehmer KI Tools",
+        "als Einzelperson mit KI skalieren",
+        "KI ersetzt mein Team",
+        "1 Person Unternehmen mit KI",
+        "produktiver mit KI alleine"
+      ]
+    },
+    {
+      "id": "tool-vergleiche",
+      "label": "Tool-Vergleiche & Tests",
+      "intent": "search",
+      "why": "Klassische Kaufabsicht-Suchen. 'X vs Y' und '30 Tage getestet' ranken stark und konvertieren in Vertrauen.",
+      "keywords": [
+        "ChatGPT vs Claude",
+        "beste KI Tools 2026",
+        "Cursor vs Windsurf",
+        "Ollama lokal installieren",
+        "KI Tool getestet",
+        "welches KI Modell fuer Coding"
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "label": "Vibe Coding & No-Code KI",
+      "intent": "both",
+      "why": "Trendbegriff mit Momentum (browse) und gleichzeitig Tutorial-Suchen (search). Niedrige Einstiegshuerde = breite Zielgruppe.",
+      "keywords": [
+        "Vibe Coding deutsch",
+        "App bauen ohne programmieren KI",
+        "mit KI eine App bauen",
+        "No Code KI App",
+        "Software bauen ohne Code",
+        "Prototyp mit KI in einer Stunde"
+      ]
+    },
+    {
+      "id": "ki-business-transformation",
+      "label": "KI-Transformation & Business-Impact",
+      "intent": "search",
+      "why": "Entscheider-Zielgruppe (Unternehmer/Fuehrungskraefte). Prozess- und ROI-Winkel ranken in B2B-Suchen.",
+      "keywords": [
+        "KI im Unternehmen einfuehren",
+        "KI Prozesse automatisieren Firma",
+        "KI Transformation Mittelstand",
+        "ROI von KI im Business",
+        "KI Use Cases Unternehmen",
+        "Prozesse mit KI optimieren"
+      ]
+    },
+    {
+      "id": "ki-news-meinung",
+      "label": "KI-News, Meinung & Reaktionen",
+      "intent": "browse",
+      "why": "Aktualitaet erzeugt Momentum. Reaktions-/Meinungs-Formate spiken schnell, halten den Kanal im Gespraech.",
+      "keywords": [
+        "neues KI Modell Test",
+        "GPT-5 Reaktion",
+        "ist KI ueberbewertet",
+        "KI Hype oder Realitaet",
+        "was KI 2026 veraendert",
+        "KI Update Wochenrueckblick"
+      ]
+    }
+  ]
+}

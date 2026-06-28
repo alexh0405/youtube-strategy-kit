@@ -1,0 +1,24 @@
+# Secrets — NIEMALS committen
+.env
+.env.local
+**/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+venv/
+.venv/
+
+# Outputs / generierte Reports
+reports/
+*.tmp
+/tmp/
+
+# macOS / Editor
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
